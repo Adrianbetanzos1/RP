@@ -1,11 +1,32 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Microsoft.EntityFrameworkCore.SqlServer/8.0.0-preview.7.23375.4": {
+        "type": "package"
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.EntityFrameworkCore.SqlServer/8.0.0-preview.7.23375.4": {
+      "sha512": "nBTkhyuOLE887p/Yfy7GQ5Q2vs533Rwvh8uCM0e+ePdk9Ouc+van+M6X8pSrXI4VcMJRYgzOM0hnFBLkJg7nnQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.sqlserver/8.0.0-preview.7.23375.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
+        "microsoft.entityframeworkcore.sqlserver.8.0.0-preview.7.23375.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0-preview.7.23375.4"
+    ]
   },
   "packageFolders": {
     "/Users/adrianmarcos/.nuget/packages/": {}
@@ -27,7 +48,6 @@
       ],
       "sources": {
         "/usr/local/share/dotnet/library-packs": {},
-        "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -45,6 +65,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[8.0.0-preview.7.23375.4, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -56,6 +82,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -64,8 +104,19 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.SqlServer 8.0.0-preview.7.23375.4 is not compatible with net7.0 (.NETCoreApp,Version=v7.0). Package Microsoft.EntityFrameworkCore.SqlServer 8.0.0-preview.7.23375.4 supports: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

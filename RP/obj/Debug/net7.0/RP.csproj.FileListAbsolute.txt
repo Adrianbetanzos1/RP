@@ -6,7 +6,6 @@
 /Users/adrianmarcos/Projects/RP/RP/bin/Debug/net7.0/RP.runtimeconfig.json
 /Users/adrianmarcos/Projects/RP/RP/bin/Debug/net7.0/RP.dll
 /Users/adrianmarcos/Projects/RP/RP/bin/Debug/net7.0/RP.pdb
-/Users/adrianmarcos/Projects/RP/RP/obj/Debug/net7.0/RP.csproj.AssemblyReference.cache
 /Users/adrianmarcos/Projects/RP/RP/obj/Debug/net7.0/RP.GeneratedMSBuildEditorConfig.editorconfig
 /Users/adrianmarcos/Projects/RP/RP/obj/Debug/net7.0/RP.AssemblyInfoInputs.cache
 /Users/adrianmarcos/Projects/RP/RP/obj/Debug/net7.0/RP.AssemblyInfo.cs
@@ -29,3 +28,4 @@
 /Users/adrianmarcos/Projects/RP/RP/obj/Debug/net7.0/RP.pdb
 /Users/adrianmarcos/Projects/RP/RP/obj/Debug/net7.0/RP.genruntimeconfig.cache
 /Users/adrianmarcos/Projects/RP/RP/obj/Debug/net7.0/ref/RP.dll
+/Users/adrianmarcos/Projects/RP/RP/obj/Debug/net7.0/RP.sourcelink.json

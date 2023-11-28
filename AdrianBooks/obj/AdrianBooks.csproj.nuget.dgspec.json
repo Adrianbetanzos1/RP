@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/adrianmarcos/Projects/RP/RP/RP.csproj": {}
+    "/Users/adrianmarcos/Projects/RP/AdrianBooks/AdrianBooks.csproj": {}
   },
   "projects": {
-    "/Users/adrianmarcos/Projects/RP/RP/RP.csproj": {
+    "/Users/adrianmarcos/Projects/RP/AdrianBooks/AdrianBooks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adrianmarcos/Projects/RP/RP/RP.csproj",
-        "projectName": "RP",
-        "projectPath": "/Users/adrianmarcos/Projects/RP/RP/RP.csproj",
+        "projectUniqueName": "/Users/adrianmarcos/Projects/RP/AdrianBooks/AdrianBooks.csproj",
+        "projectName": "AdrianBooks",
+        "projectPath": "/Users/adrianmarcos/Projects/RP/AdrianBooks/AdrianBooks.csproj",
         "packagesPath": "/Users/adrianmarcos/.nuget/packages/",
-        "outputPath": "/Users/adrianmarcos/Projects/RP/RP/obj/",
+        "outputPath": "/Users/adrianmarcos/Projects/RP/AdrianBooks/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/adrianmarcos/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -36,8 +36,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -49,20 +49,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -71,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
